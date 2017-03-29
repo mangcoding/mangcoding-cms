@@ -1,0 +1,130 @@
+body, div, ul {margin:0; padding:0;}
+body {color: #333; font-family: 'Roboto', sans-serif; font-size:13px; padding-top: 60px;}
+a {color:#4d4d4d; transition:all .3s ease-in-out;}
+.navbar {border-bottom:solid 5px #F2EC19; border-radius:0; margin-bottom:0; font-size:14px;}
+.navbar-header {padding:10px 0px;}
+.navbar-inverse {background :#0C426F; border-top:#195383;}
+.navbar-inverse .navbar-nav>li>a {color :#eaf1f7;}
+.navbar-nav {margin-top:10px;}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {background :#195383;}
+.navbar-inverse .navbar-nav>li>a:hover {background:#195383;}
+.dropdown-menu {background:#195383; border:none}
+.dropdown-menu>li {border-bottom:#285E8B}
+.dropdown-menu>li>a {color:#FFF; padding:10px 15px; border-bottom:solid 1px #285E8B; }
+.dropdown-menu>li:last-of-type>a {border-bottom:none;}
+.navbar-right .dropdown-menu {left:0;}
+.red {color:#E33A0C !important;}
+.yellow {color:#F2EC19 !important; border-color:#F2EC19 !important; background-color:#F2EC19 !important;}
+
+/*contentArea */
+.contentArea {margin:20px 0px;}
+/* widget */
+.widget, .footwidget {margin:15px 0px;}
+h4.title, .widget h4 {font-size:24px; padding:15px 0px; margin-top:0; display:block;}
+.widget h4.widget_second_title{ background: #33485D;}
+.widget img {width:100%; height:auto; padding:10px; background: #FFF; border: solid 1px #CCC;}
+.widget p{clear:both; margin-top:10px;}
+.latest ul, .news ul, .widget ul, .footwidget ul {list-style:none;}
+.widget ul li{padding:5px; border-bottom:1px solid #EFECE1;}
+.footwidget h3 {color:#D8DDCF; font-size:16px; padding-bottom:10px; text-transform: uppercase; font-weight:bold;}
+.news ul.modulemore, ul.modulemore {float:right; margin-top:10px; list-style: none}
+.news ul>li {border-bottom:solid 1px #CCC; padding:5px 0px;}
+.news ul>li:last-of-type, .modulemore li {border:none !important;}
+
+
+/*Footer */
+.custom {text-align:justify;}
+#beforeFooter {background:#0B3A67; color:#6991b7 !important; padding-bottom:20px;}
+footer {background:#083158; color:#FFF; padding:10px 0px; border-top:1px solid #184978;}
+
+/* Contact list */
+ul.contact-list li {padding: 4px 0 4px 22px;}
+ul.contact-list li.phone {
+  background-image: url(../images/icon-phone.png);
+}
+
+ul.contact-list li.email {
+  background: url(../images/icon-email.png) no-repeat 0px 5px !important;
+}
+
+ul.contact-list li.indo{
+  background: url(../images/Indonesia.png) no-repeat 0px 10px !important;
+  padding-left:30px !important;
+}
+li.indo { background: url(../images/Indonesia.png) no-repeat 10px 10px !important;
+  padding-left:30px !important; }
+li.eng { background: url(../images/United_Kingdom.png) no-repeat 10px 10px !important;
+  padding-left:30px !important; }
+
+li.eng a:hover, li.indo a:hover {background: none}
+ul.contact-list li.sing {
+  background: url(../images/Singapore.png) no-repeat 0px 10px !important;
+  padding-left:30px !important;
+}
+
+ul.contact-list li.eng{
+  background: url(../images/United_Kingdom.png) no-repeat 0px 10px !important;
+  padding-left:30px !important;
+}
+
+ul.contact-list li a {
+  border-bottom: 1px dotted #6991b7;
+}
+
+/* Social list */
+ul.social-list li a {
+  background-image: url(../images/icon-socials.png);
+}
+
+.kerjasama, .white {background:#FFF;}
+.kerjasama img {padding:10px;}
+.jurusan-blok a:first-of-type{margin-top:20px;}
+.jurusan-blok a {text-decoration: none; display: inline-block; width:100%; padding:10px 20px; color:#FFF; margin-bottom:20px; font-size:16px;}
+.ti {background: #7d7b7b;}
+.si {background: #c16622;}
+.sipil {background: #8A9045;}
+.mesin {background: #C22547;}
+.elektro {background: #3e769a;}
+.dkv {background: #8f3931;}
+.grey {background: #ededed;}
+.ss-standard span {font-weight:bold;}
+.modulemore a {float: right;}
+.footer a, .email a{color:#FFF;}
+.events {margin-bottom:20px; padding-bottom:10px; border-bottom:solid 1px #CCC; display:inline-block; width:100%;}
+.events:last-child{border:none;}
+.events:after {content:""; clear:both;}
+.events a {color:#23527c;}
+.events h5{margin-top:0px; font-size:14px; line-height:18px; text-rendering:optimizelegibility; }
+.events .date {padding:0;}
+.events .date .month{display:block;padding:6px 2px;text-align:center; border:solid 1px #CCC;}
+.events .date .day{background: #23527c; color:#FFF; display:block;padding:6px 2px;text-align:center}
+.noborder img {border:solid 1px #CCC; padding:0;}
+.article-tools { clear: both; display: block; position: relative; }
+
+dl.article-info { float: left; padding: 0; margin: 0; width: 70%; text-transform: none; }
+.published { color:#565656; color:green;}
+dl.article-info dd, dl.article-info dt {
+  padding: 0 5px 0 0;
+  margin: 0;
+  display: inline;
+}
+#article-header {margin:20px 0px; color:#565656;}
+#article-content {margin:20px 0px; color:#565656;}
+hr {border-bottom:solid 1px #0C426F;}
+.judul {color:#C22547;}
+
+
+/* Galleries (210px X 150px)*/
+.gallery .photos {margin-bottom: 20px; background: #FFF; overflow: hidden; position: relative;}
+.gallery .photos img, .gallery .photos-iframe{width:100%; height:150px;}
+.gallery .col-sm-4:nth-child(3n+2) {margin-left:0; padding-left:0;}
+.gallery .photos .viewbtn a{padding:10px 0; display: block; text-align: center; color: #fff; }
+.gallery .photos .viewbtn {width: 100%; background: #C22547; position: relative; }
+.gallery .photos .viewbtn:before {content: ""; position: absolute; width: 10px; height: 10px; left: 50%; top:-10px; border: 5px solid transparent; border-color: transparent transparent #C22547; border-radius} 
+.gallery .photos .viewbtn:hover {background: #4781B2; }
+.gallery .photos h2 {color: #8A9045; text-align: center; font-size: 14px; padding-bottom: 10px;} 
+.gallery .photos .detail {background: rgba(62, 118, 154,0.7); position: absolute; width: 100%; height: 150px; text-align: center; color: #f4f4f4; font-weight: bold; padding-top: 20%; top:-150px; visibility: hidden; opacity: 0;}
+
+.gallery .photos:hover > .detail {visibility: visible; opacity: 1; top:0px; cursor: pointer; transition:all .3s ease; -webkit-transition:all .3s ease; -moz-transition:all .3s ease;}
+
+.gallery .detail a {color:#FFF; text-decoration: none;}
